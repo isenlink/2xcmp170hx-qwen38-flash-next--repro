@@ -1,0 +1,22 @@
+Qwen3.8-Flash-Next on 2x CMP 170HX Gen2 x4 reproduction
+Copyright 2026 AI02 contributors
+
+This repository contains an independent reproduction report, benchmark harnesses,
+and result data. It does not include model weights, container images, NVIDIA driver
+patches, or the upstream PLE-offload implementation.
+
+Referenced upstream projects:
+
+1. moriyasujapan/qwen38-flash-next-vllm-2x170hx
+   https://github.com/moriyasujapan/qwen38-flash-next-vllm-2x170hx
+   Referenced commit: 819c5b81bcc4a89d4b0d9eab1979593a66ea4956
+
+2. alesha-pro/qwen38-flash-next-4x3090
+   https://github.com/alesha-pro/qwen38-flash-next-4x3090
+   Referenced commit: 9b36aaec3f604d726c6b751e29f7de8225fc203b
+
+3. vLLM
+   https://github.com/vllm-project/vllm
+
+Model weights are not redistributed. Users must review the Qwen Community License
+and the license attached to the selected quantized checkpoint.
